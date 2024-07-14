@@ -1,10 +1,23 @@
-## 概要
+# 概要
 
-GitHub projects を利用してスクラム開発をテスト実施する
+本リポジトリにて、org-408 Organization にて使用する、
 
-## フィールドについて
+* Issue template
+* PR template
 
-### 作成したカスタムフィールド
+を用意する。
+また、厳密には本リポジトリにて用意しているわけではないが、
+本Organizationにて用意している Project template について
+以下に説明する
+
+## Project template について
+
+GitHub projects を利用して、スクラム開発を想定した Project templeateを用意した。
+以下に template の内容について説明する
+
+### フィールドについて
+
+#### 作成したカスタムフィールド
 
 | 名前 | 種別 | 設定内容 | 項目、例など |
 |:---:|:----:|:-------:|:-----|
@@ -16,12 +29,12 @@ GitHub projects を利用してスクラム開発をテスト実施する
 |Point|Number|見積ポイント|0, 1, 2, 3, 5, 8, 13, ...|
 |Priority|Single select|優先度|Low/Middle/High|
 
-### 既存のフィールド
+#### 既存のフィールド
 
 * Title
 * Labels
 
-## ビューについて
+### ビューについて
 
 以下のビューを作成した
 
@@ -35,4 +48,8 @@ GitHub projects を利用してスクラム開発をテスト実施する
   * スプリントバックログのステータス管理用
 * Assignees View
   * 担当者単位のステータス管理用
+
+また、既存のビューとして以下も提供される
+
+* Roadmap
 
